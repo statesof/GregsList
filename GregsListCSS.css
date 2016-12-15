@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: rgb(235,235,235);
+	padding: 15px 25px 15px 25px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.GL {
+	margin: 0;
+	display: inline;
+	vertical-align: middle;
+	font-size: 1.2em;
+}
+
+.navul {
+	display: inline;
+	float: right;
+	margin-right: 20px;
+	margin: 0;
+}
+
+.navli {
+	display: inline;
+	padding-right: 10px;
+	font-size: 1.2em;
+}
+
+
+.navli > a {
+	color: Indigo;
+}
+
+a {
+	text-decoration: none;
+}
+
+form {
+	margin: 6em 0em 0em 8em;
+}
+
+.search {
+	display: inline;
+	padding: 0;
+}
+
+.searchbar {
+	width: 400px;
+	height: 33px;
+	color: rgb(170,170,170);
+	margin: 0px;
+	padding: 0.5px 0px 1.5px 11px;
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+img {
+	border: 1px solid rgb(220,220,220);
+	width: 32.5px;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+}
+
+.buttong {
+	margin-top: 3em;
+
+}
+
+ .buta {
+	color: black;
+	border: 1px solid rgb(220,220,220);
+	padding: 10px 15px 10px 15px;
+	margin: 0;
+}
+
+.left {
+	border-radius: 5px 0px 0px 5px;
+}
+
+.right {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.listings {
+	margin: 4em 0em 0em 8em;
+}
+
+p {
+	color: gray;
+}
+
+.listingsa {
+	padding: 0em 0.5em 0em 0.5em;
+	font-weight: bold;
+}
